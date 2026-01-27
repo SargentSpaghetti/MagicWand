@@ -15,7 +15,7 @@ jobs:
           java-version: 21
 
       - name: Unzip source
-        run: unzip -q MagicWand-Source-main_paper1.21.10_patch.zip
+        run: unzip -q MagicWand-Source-main.zip
 
       - name: Build shaded jar
         working-directory: MagicWand-Source-main
